@@ -3,7 +3,7 @@ class CreateLists < ActiveRecord::Migration[5.2]
     create_table :lists do |t|
       # 以下の2行を追加
       t.string :title
-      t.string :body
+      t.string :
 
       t.timestamps
     end
